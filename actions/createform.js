@@ -20,7 +20,7 @@ var task = function(request, callback){
 	//4. get bucket name
 	
 
-	callback(null, {template: INDEX_TEMPLATE, params:{fields:[{name:"key", value:"alamakota"}], bucket:""}});
+	callback(null, {template: INDEX_TEMPLATE, params:{fields:[{name:"key", value:"alamakota"}], bucket:"WEEIA"}});
 }
 
 exports.action = task;
